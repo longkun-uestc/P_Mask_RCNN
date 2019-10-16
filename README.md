@@ -1,8 +1,8 @@
 # P_mask_RCNN for pulmonary embolism(PE) detection and segmentation
 
 This is an implementation of P_Mask RCNN
-on Python 3, Keras, and TensorFlow>=1.10, <2.0. The code inherits from [Mask RCNN]
-(https://github.com/matterport/Mask_RCNN). We mainly modified its RPN part. 
+on Python 3, Keras, and TensorFlow>=1.10, <2.0. The code inherits from [Mask RCNN](https://github.com/matterport/Mask_RCNN). 
+We mainly modified its RPN part. 
 Our method has a better performance on small object detection. 
 
 ![Instance Segmentation Sample](images/p2.jpg)
@@ -14,7 +14,7 @@ the Expectation-Maximization(EM) algorithm
 * the source code of sample from GMM
 * the source code of the RPN model of P_mask_RCNN
 
-#Data Description
+# Data Description
 to reproduce the results of the experiment in our paper, you should download the PE dataset
 from [here](https://figshare:com/authors/MojtabaMasoudi/5215238).
 
@@ -32,7 +32,7 @@ objects with the square root of the area≤32 pixels which only
 occupy on average 0.3% of the image area.
 ![objects square distribution](images/area.png)
 
-#Getting started
+# Getting started
 Install the required package:
 ```
 pip install -r requirements.txt
