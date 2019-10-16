@@ -45,7 +45,7 @@ python sampling/sample.py
 ```
 the result are as follows:
 <figure class="half">
-    <img src="images/1.png" alt="134">
+    <img src="images/1.png" alt="134" width="">
     <img src="images/mixture_gauss.png" alt="234">
 </figure>
 
