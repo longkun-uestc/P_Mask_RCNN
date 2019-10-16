@@ -45,8 +45,8 @@ python sampling/sample.py
 ```
 the result are as follows:
 <figure class="half">
-    <img src="images/1.png" alt="134" width="">
-    <img src="images/mixture_gauss.png" alt="234">
+    <img src="images/1.png" alt="134" width="400px" height="400px">
+    <img src="images/mixture_gauss.png" alt="234" width="400px" height="400px">
 </figure>
 
 * [pulmonary_embolism.py](pulmonary_embolism.py) is the main file to train and validate P_Mask_RCNN.
